@@ -1,0 +1,33 @@
+.headerdiv {
+    color: coral;
+}
+.headerdiv img {
+    width: 100px;
+}
+.maindiv{
+    background-color: bisque;
+    padding: 25px;
+    margin-top: 15px;
+    border: 3px dashed brown;
+}
+.maindiv label {
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 20px;
+}
+#cam {
+    border: 3px dashed maroon;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 20px;
+}
+.maindiv button {
+    width: 310px;
+    font-size: 16px;
+}
+
+.pic {
+    width: 300px;
+    height: 300px;
+}
