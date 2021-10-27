@@ -16,41 +16,19 @@
 <body>
   <center>
     <div class="col-xs-12 headerdiv">
-      <h1>Case Study<img src="logo.gif"></h1>
+      <h1>Image Indentifier &nbsp;<img src="logo.gif"></h1>
     </div>
-    <ol>
-    <div class="col-sm-6 col-xs-12 maindiv"><label>Test 1</label>
-      <li><img src="download.jpg" class="img-responsive pic"></li>
-      <h5>Output on Microsoft Azure - closeup of electronics</h5><span></span>
-      <h5>Output on MobileNet Model - </h5><span></span>
-      <div><h4>Result<hr></h4></div>
+    <div class="col-sm-6 col-xs-12 maindiv"><label>Webcam View</label>
+      <div id="cam"></div><button onclick="Take_Shot()" class="btn btn-info">Capture Image</button>
     </div>
-    <div class="col-sm-6 col-xs-12 maindiv"><label>Test 2</label>
-      <li><img src="lehnga.jpg" class="img-responsive pic"></li>
-      <h5>Output on Microsoft Azure - a closeup of a white dress</h5><span></span>
-      <h5>Output on MobileNet Model - </h5><span></span>
-      <div><h4>Result<hr></h4></div>
+    <div class="col-sm-6 col-xs-12 maindiv"><label>Snapshot</label>
+      <div id="result"></div><button onclick="check()" class="btn btn-primary">Identify Image</button>
     </div>
-    <div class="col-sm-6 col-xs-12 maindiv"><label>Test 3</label>
-      <li><img src="phone.jpg" class="img-responsive pic"></li>
-      <h5>Output on Microsoft Azure - a screenshot of a cellphone</h5><span></span>
-      <h5>Output on MobileNet Model - </h5><span></span>
-      <div><h4>Result<hr></h4></div>
-    </div><div class="col-sm-6 col-xs-12 maindiv"><label>Test 4</label>
-      <li><img src="flwer.jpg" class="img-responsive pic"></li>
-      <h5>Output on Microsoft Azure - a closeup of a flower</h5><span></span>
-      <h5>Output on MobileNet Model - </h5><span></span>
-      <div><h4>Result<hr></h4></div>
-    </div><div class="col-sm-6 col-xs-12 maindiv"><label>Test 5</label>
-      <li><img src="salangei.jpg" class="img-responsive pic"></li>
-      <h5>Output on Microsoft Azure - undefined</h5><span></span>
-      <h5>Output on MobileNet Model - </h5><span></span>
-      <div><h4>Result<hr></h4></div>
-    </div>
-  </ol>
   </center>
-
-
+  <div class="col-xs-12 footer_div">
+    <h4 class="col-sm-6 col-xs-12"><img src="blub.gif"><span id="objName"></span></h4>
+  </div>
+<div class="cp_footer">Developed by Debangi Dey</div>
 
   <script src="main.js"></script>
 </body>
